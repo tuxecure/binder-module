@@ -7,6 +7,12 @@ You need to have `dkms` and linux-headers on your system. You can install them b
 `sudo apt install dkms linux-headers-generic`.
 
 ```bash
+# download files
+git clone https://github.com/tuxecure/binder-module
+
+# enter the downloaded directory
+cd binder-module
+
 # prepare config files
 cp binder.conf /etc/modules-load.d/ # auto load kernel modules after system boot
 
